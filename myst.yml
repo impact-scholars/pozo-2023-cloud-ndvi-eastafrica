@@ -1,69 +1,50 @@
 version: 1
 extends:
 - https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling/v0.1.0/nexus.yml
-- https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling-config/v0.1.0/isp-micropublication-2025.yml
+- https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling-config/v0.1.0/climatematch-2023.yml
 
 project:
-  # Uncomment and fill when published
-  # doi: 10.5281/zenodo.XXXXXXX
-  # date: YYYY-MM-DD
+  doi: 10.5281/zenodo.11001991
+  date: 2024-04-20
   authors:
-  - name: Doe, J.
-    orcid: 0000-0000-0000-0001
+  - name: Jesús Pozo
+    orcid: 0000-0001-5643-3444
     affiliations:
-    - Department of Geosciences and Natural Resource Management, University of Copenhagen, Denmark
-    roles:
-    - Conceptualization
-    - Formal analysis
-    - Investigation
-    - Methodology
-    - Software
-    - Visualization
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Sharma, A.J.
-    orcid: 0000-0000-0000-0002
+    - National Agrarian University La Molina, Peru
+  - name: Andrea Miranda
+    orcid: 0000-0003-1125-4340
     affiliations:
-    - Department of Earth Sciences, Indian Institute of Technology Bombay, Mumbai, India
-    roles:
-    - Formal analysis
-    - Investigation
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Tanaka, S.
+    - National Institute for Research in Glaciers and Mountain Ecosystems
+  - name: Alethia Kielbasa
+    orcid: 0000-0003-0406-6122
     affiliations:
-    - College of Urban and Environmental Sciences, Peking University, Beijing, China
-    roles:
-    - Formal analysis
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Vera Gutierrez, C.
+    - University of Oklahoma
+  - name: Sergei Nabatov
+    orcid: 0009-0004-7350-8945
     affiliations:
-    - Institute of Geology, Mining, and Metallurgy, Universidad Nacional Mayor de San Marcos, Lima, Peru
-    roles:
-    - Formal analysis
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Ndlovu, T.
+    - Politecnico di Milano
+  - name: Benedetta Francesconi
+    orcid: 0009-0002-2478-7859
     affiliations:
-    - Marine Research and Development, Oceanic Dynamics Ltd., Cape Town, South Africa
-    roles:
-    - Formal analysis
-    - Writing - review & editing
+    - VU Amsterdam
+  - name: Abdus Samad
+    orcid: 0000-0001-7434-6942
+    affiliations:
+    - University of Rochester
 
   toc:
   - file: index.md
 
-  id: isp-micropublication-template
-  title: This is the title of our awesome micropublication
+  id: cloud-ndvi-patterns-east-africa
+  title: Long-term Climatological Patterns of Cloud Coverage and NDVI in East Africa
   keywords:
-  - keyword1
-  - keyword2
-  - keyword3
-  - keyword4
-  github: https://github.com/Open-Scholar-Nexus/isp-micropublication-template
+  - NDVI
+  - Cloud Coverage
+  - East Africa
+  - Remote Sensing
+  github: https://github.com/Open-Scholar-Nexus/pozo-2023-cloud-ndvi-eastafrica
   bibliography:
   - bib.bib
-  # downloads:
-  # - file: supplementary-material.zip
-  #   title: Supplementary Material
+  downloads:
+  - file: CISP-2024-Long-term-climatological-patterns-East-Africa-code.zip
+    title: Code
